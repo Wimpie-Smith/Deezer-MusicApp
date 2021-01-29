@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require("cors");
 var axios = require("axios").default;
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://deezerApp:!Wimpie@01@cluster0.hwejv.mongodb.net/mytable?retryWrites=true&w=majority"
+
 const app = express();
 const port = process.env.PORT || 5000;
 var array=[];
@@ -71,7 +71,7 @@ app.post('/artistDetail', (req, res) => {
                        if (err) throw err;
                        console.log("1 document inserted");
               
-             3.2 AXIOS TO TO API CALL AND RES TO CLIENT
+             3.2 AXIOS TO API CALL AND RES TO CLIENT
   });
          }
        if (err) throw err;
