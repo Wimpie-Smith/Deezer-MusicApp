@@ -1,5 +1,4 @@
 # Deezer-MusicApp
-Wimpie Smith Technical assessment
 
 ## Running the application:
 
